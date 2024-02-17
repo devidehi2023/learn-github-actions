@@ -1,0 +1,11 @@
+name: Dev First workflow
+on: workflow_dispatch
+jobs:
+    buildJob:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Print again
+            run: echo "Started learning again Github actions"
+          - name: Print Hello
+            run: echo "Thanks for starting again"
+            
